@@ -1,0 +1,30 @@
+<?php exit; ?>
+67d8b4feac91d92b4c40c949e27834168929a71a
+{
+    "plugin_version": "PhastPress-2.9-8",
+    "servicesUrl": "http://microbelift.com/wp-content/plugins/phastpress/phast.php",
+    "securityToken": "qUrJVw6I2WAwO1QzfRQgsxPvXqr0h+UEzuubgg==",
+    "images": {
+        "filters": {
+            "Kibo\\Phast\\Filters\\Image\\ImageAPIClient\\Filter": {
+                "enabled": true,
+                "plugin-version": "PhastPress-2.9-8"
+            }
+        }
+    },
+    "styles": {
+        "filters": {
+            "Kibo\\Phast\\Filters\\CSS\\ImageURLRewriter\\Filter": {
+                "enabled": true
+            }
+        }
+    },
+    "serviceRequestFormat": 2,
+    "compressServiceResponse": true,
+    "cdnHost": "microbelift.com",
+    "alternativeServicesUrls": {
+        "https://microbelift.com:443": "https://microbelift.com/wp-content/plugins/phastpress/phast.php",
+        "http://microbelift.com:80": "http://microbelift.com/wp-content/plugins/phastpress/phast.php",
+        "http://www.microbelift.com:80": "http://microbelift.com/wp-content/plugins/phastpress/phast.php"
+    }
+}
